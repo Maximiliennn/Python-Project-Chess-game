@@ -1,16 +1,4 @@
-'''class Piece:
-    def __init__(self, position, color, status=True):
-        self.position = position
-        self.color = color
-        self.status = status'''
-
-"""
-Defines the initial placement of chess pieces.
-Uppercase letters represent White pieces.
-Lowercase letters represent Black pieces.
-"""
-
-INITIAL_PIECES = {
+INITIAL_PIECE = {
     # White pieces
     "a1": "R", "b1": "N", "c1": "B", "d1": "Q",
     "e1": "K", "f1": "B", "g1": "N", "h1": "R",
